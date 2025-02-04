@@ -2,10 +2,9 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    position: absolute;
 }
 
-div.main {
+div.page {
     display: flex;
     justify-content: center;
     height: 100vh;
@@ -22,6 +21,10 @@ div.card {
     align-items: center;
     justify-content: center;
     position: absolute;
+
+    img {
+        height: 100%;
+    }
 
     & img.profilepic {
         width: 96px;
@@ -52,7 +55,6 @@ div.card {
     }
 
     & div.line {
-        color: white;
         width: 350px;
         height: 1px;
         background-color: #e7e7e7;
@@ -79,16 +81,4 @@ div.card {
             }
         }
     }
-}
-
-img#top {
-    position: relative;
-    top: -489px;
-    left: -489px;
-}
-
-img#bottom {
-    position: relative;
-    top: 489px;
-    left: 489px;
 }

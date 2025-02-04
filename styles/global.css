@@ -19,5 +19,14 @@
 body{
     background-color: var(--dark-cyan);
     font: var(--emphasis);
+
     color: var(--very-dark-desaturated-blue);
+    background-image: url(./../images/bg-pattern-top.svg),
+                      url(./../images/bg-pattern-bottom.svg);
+
+    background-repeat: no-repeat,
+                       no-repeat;
+
+    background-position: right 48vw bottom 48vh,
+                         left 48vw top 48vh;                  
 }
